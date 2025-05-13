@@ -4,22 +4,22 @@ My solutions to the 2025 FRQs. [Questions found here](https://apcentral.collegeb
 
 ## FRQ 1 DogWalker
 
-- [ ] Part A: walkDogs(int hour)
-- [ ] Part B: dogWalkShift(int startHour, int endHour)
+- [x] Part A: walkDogs(int hour)
+- [x] Part B: dogWalkShift(int startHour, int endHour)
 
 ## FRQ 2 Signature
 
-- [ ] Constructor
-- [ ] getSignature()
-- [ ] addSignature(String string)
+- [x] Constructor
+- [x] getSignature()
+- [x] addSignature(String string)
 
 
 ## FRQ 3 Competition
 
-- [ ] Round Constructor
-- [ ] buildMatches()
+- [x] Round Constructor
+- [x] buildMatches()
 
 ## FRQ 4 
 
-- [ ] SumOrSameGame Constructor
-- [ ] clearPair(int row, int col)
+- [x] SumOrSameGame Constructor
+- [x] clearPair(int row, int col)
