@@ -10,4 +10,5 @@
                 earnings += 3
             }
         }
+        return earnings;
     }
