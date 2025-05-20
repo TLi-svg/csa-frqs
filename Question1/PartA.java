@@ -1,11 +1,11 @@
     public int walkDogs(int hour) {
-        int avail = company.numAvailableDogs();
+        int avail = company.numAvailableDogs(hour);
 
-        if (maxDogs > avail) {
-            updateDogs(hour, avail);
+        if (maxDogs >= avail) {
+            company.updateDogs(hour, avail);
             return avail;
         } else {
-            updateDogs(hour, maxDogs);
+            company.updateDogs(hour, maxDogs);
             return maxDogs;
         }
     }
