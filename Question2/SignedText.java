@@ -17,12 +17,11 @@ public class SignedText {
 
     public String addSignature(String add) {
         String sig = getSignature();
-        String sigLen = getSignature().length();
+        int sigLen = getSignature().length();
 
-
-        if (sig.indexOf(add) == 0) {
-            return + add.substring(sigLen) + sig;
-        } else if (sig.indexOf(add) == sig.length() - add.length()) {
+        if (add.indexOf(sig) == 0) {
+            return add.substring(sigLen) + sig;
+        } else if (add.indexOf(sig) == (add.length() - sig.length())) {
             return add;
         }
 
